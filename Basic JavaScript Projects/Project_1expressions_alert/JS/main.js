@@ -54,5 +54,9 @@ document.write(Student_4);// displaying the font color of the variable
 document.write("<br>");//Separartion of code from the others
 
 document.write(12 * 4); // a statement that is containing an expression
+document.write("<br>");
 
+var B = "This is my lucky day!";
+var C = "I'm going on a vacation!";
+document.write(B + C);
 
