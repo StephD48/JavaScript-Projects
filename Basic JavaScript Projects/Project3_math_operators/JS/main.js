@@ -71,8 +71,11 @@ function decrement_operator() {//Defining a function for a decrement operator
 
 }
 
-
 document.write(Math.random() * 50);
+
+document.write("<br>");
+
+document.write(Math.random());
 
 
 
