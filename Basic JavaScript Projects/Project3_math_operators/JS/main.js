@@ -69,11 +69,10 @@ function decrement_operator() {//Defining a function for a decrement operator
     S--; //What the variable will do in the operation
     document.getElementById("decrement").innerHTML = S--; // The result of the operation in the document
 
-
 }
 
 
-
+document.write(Math.random() * 50);
 
 
 
