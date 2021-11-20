@@ -57,17 +57,17 @@ function Over_Age_Function()  {//Defining a function
 
 }
 
-function Time_function() {
-    var Time = new Date().getHours() ;
-    var Reply;
-    if (Time < 12 == Time > 0) {
-        Reply = "It is morning time!";       
+function Time_function() {//Defining a Function
+    var Time = new Date().getHours() ;//Assiging a variable
+    var Reply;// Assigning a variable
+    if (Time < 12 == Time > 0) {//If statement
+        Reply = "It is morning time!"; // Reply statement     
     }
-    else if (Time >= 12 == Time < 18) {
-        Reply = "It is afternoon.";
+    else if (Time >= 12 == Time < 18) {//Else if statement
+        Reply = "It is afternoon.";//Reply statement
     }
-    else {
-        Reply = "It is evening time.";
+    else {//Else statement
+        Reply = "It is evening time.";//Reply statement
     }
-    document.getElementById("Time_of_day").innerHTML = Reply;
+    document.getElementById("Time_of_day").innerHTML = Reply;//Out put statement
 }
