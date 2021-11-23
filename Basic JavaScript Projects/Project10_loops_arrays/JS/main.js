@@ -41,7 +41,7 @@ function array_Function() {//defining an array function
     Travel_Picture[1] = "Africa";//object in the array
     Travel_Picture[2] = "England";//object in the array
     Travel_Picture[3] = "France";//object in the array
-    document.getElementById("Array").innerHTML = "In this is a picture, of a trip I took to " + Travel_Picture[3] + ".";//output of code
+    document.getElementById("Array").innerHTML = "This is a picture, of a trip I took to " + Travel_Picture[3] + ".";//output of code
 }
 
 function constant_function() {//defining a function
