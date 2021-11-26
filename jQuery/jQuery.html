@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+    <script>
+        $(document).ready(function() {//specify a function to execute when the DOM is fully loaded
+            $("html").append (//insert content, specified by the parameter, to the end of each elementin the set matched elements
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            $("#2").click(function() {//Event setup using a convenience 
+                console.log("You clicked on a function!");
+            });
+            $("#1").slideUp( 800 );
+            $("#1").css({"font-weight":"bold"});//styling the #1 element with font-weight "bold"
+            $("#2").css({"color":"red"});//styling the #2 element with a color
+            $("#3").click(function() {//trigger an event on the #3 element 
+                $('h1').hide();//Hide the matched element (h1)
+            
+            })
+
+            
+    });
+
+        
+    </script>
+        
+
+
+    </script>
+    </body>
+</html>
